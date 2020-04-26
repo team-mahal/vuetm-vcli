@@ -1,11 +1,11 @@
 import merge from 'lodash/merge'
 import DefaultTheme from './themes/default.js'
 
-import TDropdown from './components/TDropdown.vue'
+import Dropdown from './components/Dropdown.vue'
 
 
 const components = {
-	TDropdown,
+	Dropdown,
 }
 
 /**
