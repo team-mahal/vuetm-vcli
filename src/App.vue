@@ -4,7 +4,7 @@
 		<dropdown :baseClass="'aaaaaaaa'" :dropdownClass="'asas'" :disabledClass="'asas'">
 			<p class="text-indigo-900">ssssssssssssssssss</p>
 			<p class="text-indigo-900">ssssssssssssssssss</p>
-			<p class="text-indigo-900">ssssssssssssssssss</p>
+			<p class="text-purple-500">ssssssssssssssssss</p>
 			<p class="text-indigo-900">ssssssssssssssssss</p>
 		</dropdown>
 	</div>
@@ -20,12 +20,3 @@ export default {
 	}
 }
 </script>
-
-<style>
-	@tailwind base;
-
-	@tailwind components;
-
-	@tailwind utilities;
-</style>
-
