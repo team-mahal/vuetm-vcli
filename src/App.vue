@@ -1,7 +1,12 @@
 <template>
 	<div id="app">
 		<img alt="Vue logo" src="./assets/logo.png">
-		<Dropdown :baseClass="'aaaaaaaa'" :dropdownClass="'asas'" :disabledClass="'asas'"/>
+		<dropdown :baseClass="'aaaaaaaa'" :dropdownClass="'asas'" :disabledClass="'asas'">
+			<p class="text-indigo-900">ssssssssssssssssss</p>
+			<p class="text-indigo-900">ssssssssssssssssss</p>
+			<p class="text-indigo-900">ssssssssssssssssss</p>
+			<p class="text-indigo-900">ssssssssssssssssss</p>
+		</dropdown>
 	</div>
 </template>
 
@@ -15,4 +20,12 @@ export default {
 	}
 }
 </script>
+
+<style>
+	@tailwind base;
+
+	@tailwind components;
+
+	@tailwind utilities;
+</style>
 
